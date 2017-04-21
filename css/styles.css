@@ -1,5 +1,5 @@
 body {
-  background-color: #1126c1;
+  background-color: black;
 }
 
 .fixed-panel {
@@ -22,9 +22,22 @@ h1 {
     width: 100px;
     background-color: white;
 }
-.main {
+.main1 {
+    position: fixed;
+    left:100px; top:0px; right:0; bottom:0;
+    background-color: blue;
+}
+.main2 {
     position: absolute;
-    left:178px; top:92px; right:0; bottom:0;
+    left:178px; top:0px; right:0; bottom:0;
+}
+.main3 {
+    position: absolute;
+    left:178px; top:0px; right:0; bottom:0;
+}
+.main4 {
+    position: absolute;
+    left:178px; top:0px; right:0; bottom:0;
 }
 
 .vertical-text {
