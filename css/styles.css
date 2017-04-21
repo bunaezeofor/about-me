@@ -7,17 +7,27 @@ body {
   max-height: 800px;
 }
 
+h1 {
+  font-size: 100px;
+}
+
 .top {
     position:absolute;
     left:0; right:0;
     height: 92px;
 }
 .left {
-    position:absolute;
-    left:0; top:92px; bottom: 0;
-    width: 178px;
+    position:fixed;
+    left:0; top:0px; bottom: 0;
+    width: 100px;
+    background-color: white;
 }
 .main {
     position: absolute;
     left:178px; top:92px; right:0; bottom:0;
+}
+
+.vertical-text {
+	-webkit-transform: rotate(90deg);
+	transform-origin: left top 0;
 }
