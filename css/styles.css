@@ -1,0 +1,8 @@
+body {
+  background-color: #1126c1;
+}
+
+.fixed-panel {
+  min-height: 800px;
+  max-height: 800px;
+}
