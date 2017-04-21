@@ -2,6 +2,10 @@ body {
   background-color: black;
 }
 
+ul{
+  list-style: none;
+}
+
 .fixed-panel {
   min-height: 800px;
   max-height: 800px;
