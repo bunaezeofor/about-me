@@ -11,37 +11,40 @@ h1 {
   font-size: 100px;
 }
 
-.h2 {
-  font-size:30px;
-  text-align:justify;
-  color: white;
-}
-
 .p {
   font-size:30px;
   text-align:justify;
-  color: white;
-  font-family: sans-serif;
 }
 
+.top {
+    position:absolute;
+    left:0; right:0;
+    height: 92px;
+}
+.left {
+    position:fixed;
+    left:0; top:0px; bottom: 0;
+    width: 100px;
+    background-color: black;
+}
 .main1 {
     position: fixed;
-    left:150px; top:0px; right:0px; bottom:0;
+    left:100px; top:0px; right:0px; bottom:0;
     background-color: blue;
 }
 .main2 {
     position: absolute;
-    left:400px; top:0px; right:0; bottom:0;
+    left:300px; top:0px; right:0; bottom:0;
     background-color: #34A1F0;
 }
 .main3 {
     position: absolute;
-    left:650px; top:0px; right:0; bottom:0;
+    left:550px; top:0px; right:0; bottom:0;
     background-color: #1525D3;
 }
 .main4 {
     position: absolute;
-    left:850px; top:0px; right:0; bottom:0;
+    left:750px; top:0px; right:0; bottom:0;
     background-color: red;
 }
 
